@@ -1,0 +1,133 @@
+21:59:42 | person | Ahead | Close | 63.8%
+21:59:42 | person | Ahead | Close | 68.0%
+21:59:43 | person | Ahead | Close | 63.0%
+21:59:43 | person | Ahead | Close | 68.1%
+21:59:43 | person | Ahead | Close | 69.2%
+21:59:43 | person | Ahead | Close | 61.7%
+21:59:43 | person | Ahead | Close | 67.1%
+21:59:43 | person | Ahead | Close | 61.4%
+21:59:43 | person | Ahead | Close | 61.7%
+21:59:43 | person | Ahead | Close | 65.6%
+21:59:43 | person | Ahead | Close | 65.3%
+21:59:44 | person | Ahead | Close | 63.2%
+21:59:44 | person | Ahead | Close | 62.4%
+21:59:44 | person | Ahead | Close | 62.4%
+21:59:44 | person | Ahead | Close | 61.6%
+21:59:44 | person | Ahead | Close | 66.6%
+21:59:44 | person | Ahead | Close | 70.6%
+21:59:44 | person | Ahead | Close | 64.1%
+21:59:44 | person | Ahead | Close | 68.4%
+21:59:44 | person | Ahead | Close | 70.8%
+21:59:45 | person | Ahead | Close | 74.8%
+21:59:45 | person | Ahead | Close | 72.8%
+21:59:45 | person | Ahead | Close | 74.9%
+21:59:45 | person | Ahead | Close | 76.4%
+21:59:45 | person | Ahead | Close | 68.7%
+21:59:45 | person | Ahead | Close | 69.4%
+21:59:45 | person | Ahead | Close | 77.5%
+21:59:45 | person | Ahead | Close | 72.9%
+21:59:46 | person | Ahead | Close | 62.1%
+21:59:46 | person | Ahead | Close | 74.8%
+21:59:46 | person | Ahead | Close | 67.4%
+21:59:46 | person | Ahead | Close | 53.8%
+21:59:46 | person | Ahead | Close | 71.8%
+21:59:46 | person | Ahead | Close | 71.8%
+21:59:46 | person | Ahead | Very Close | 83.0%
+21:59:46 | person | Ahead | Close | 87.2%
+21:59:47 | person | Ahead | Close | 79.6%
+21:59:47 | person | Ahead | Close | 86.4%
+21:59:47 | person | Ahead | Close | 71.5%
+21:59:47 | person | Ahead | Close | 68.1%
+21:59:47 | person | Ahead | Close | 80.0%
+21:59:47 | person | Ahead | Close | 69.4%
+21:59:47 | person | Ahead | Close | 71.0%
+21:59:47 | person | Ahead | Close | 74.6%
+21:59:47 | person | Ahead | Close | 58.8%
+21:59:47 | person | Ahead | Close | 66.8%
+21:59:48 | person | Ahead | Close | 68.9%
+21:59:48 | person | Ahead | Close | 71.2%
+21:59:48 | person | Ahead | Close | 68.6%
+21:59:48 | person | Ahead | Close | 70.3%
+21:59:48 | person | Ahead | Close | 62.5%
+21:59:48 | person | Ahead | Close | 70.2%
+21:59:48 | person | Ahead | Close | 74.4%
+21:59:48 | person | Ahead | Close | 73.1%
+21:59:48 | person | Ahead | Close | 63.4%
+21:59:48 | person | Ahead | Close | 65.7%
+21:59:49 | person | Ahead | Close | 58.8%
+21:59:49 | person | Ahead | Close | 67.5%
+21:59:49 | person | Ahead | Close | 51.7%
+21:59:49 | person | Ahead | Close | 71.6%
+21:59:49 | person | Ahead | Close | 68.7%
+21:59:49 | person | Ahead | Close | 55.3%
+21:59:49 | person | Ahead | Medium | 52.5%
+21:59:49 | person | Ahead | Medium | 67.8%
+21:59:49 | person | Ahead | Medium | 63.0%
+21:59:50 | person | Ahead | Medium | 65.7%
+21:59:50 | person | Ahead | Medium | 51.6%
+21:59:50 | person | Ahead | Medium | 51.6%
+21:59:50 | person | Ahead | Medium | 73.4%
+21:59:50 | person | Ahead | Medium | 68.1%
+21:59:59 | person | Ahead | Close | 37.5%
+21:59:59 | person | Left | Close | 32.5%
+22:00:05 | person | Left | Very Close | 70.7%
+22:00:08 | person | Left | Far | 39.5%
+22:00:08 | person | Left | Far | 28.5%
+22:00:13 | bus | Right | Far | 25.7%
+22:00:14 | person | Left | Far | 53.2%
+22:00:20 | person | Left | Far | 25.4%
+22:00:26 | person | Ahead | Very Close | 90.4%
+22:00:27 | person | Ahead | Very Close | 89.0%
+22:00:27 | person | Ahead | Very Close | 88.8%
+22:00:27 | person | Ahead | Very Close | 89.1%
+22:00:27 | person | Ahead | Very Close | 89.7%
+22:00:27 | person | Ahead | Very Close | 89.7%
+22:00:27 | person | Ahead | Very Close | 89.3%
+22:00:27 | person | Ahead | Very Close | 89.7%
+22:00:27 | person | Ahead | Very Close | 89.9%
+22:00:27 | person | Ahead | Very Close | 89.7%
+22:00:28 | person | Ahead | Very Close | 90.2%
+22:00:28 | person | Ahead | Very Close | 89.8%
+22:00:28 | person | Ahead | Very Close | 90.9%
+22:00:28 | person | Ahead | Very Close | 91.2%
+22:00:28 | person | Ahead | Very Close | 90.0%
+22:00:28 | person | Ahead | Very Close | 89.6%
+22:00:28 | person | Ahead | Very Close | 90.5%
+22:00:29 | person | Ahead | Very Close | 89.8%
+22:00:29 | person | Ahead | Very Close | 90.0%
+22:00:29 | person | Ahead | Very Close | 89.4%
+22:00:29 | person | Ahead | Very Close | 91.0%
+22:00:29 | person | Ahead | Very Close | 91.0%
+22:00:29 | person | Ahead | Very Close | 90.6%
+22:00:30 | person | Ahead | Very Close | 89.8%
+22:00:30 | person | Ahead | Very Close | 89.4%
+22:00:30 | person | Ahead | Very Close | 89.1%
+22:00:30 | person | Ahead | Very Close | 88.6%
+22:00:30 | person | Ahead | Very Close | 88.4%
+22:00:30 | person | Ahead | Very Close | 86.1%
+22:00:30 | person | Ahead | Very Close | 86.9%
+22:00:31 | person | Ahead | Very Close | 89.0%
+22:00:31 | person | Ahead | Very Close | 88.4%
+22:00:31 | person | Ahead | Very Close | 88.3%
+22:00:31 | person | Ahead | Very Close | 88.7%
+22:00:31 | person | Ahead | Very Close | 88.7%
+22:00:31 | person | Ahead | Very Close | 88.8%
+22:00:31 | person | Ahead | Very Close | 89.1%
+22:00:31 | person | Ahead | Very Close | 89.7%
+22:00:31 | person | Ahead | Very Close | 88.9%
+22:00:32 | person | Ahead | Very Close | 89.7%
+22:00:32 | person | Ahead | Very Close | 89.0%
+22:00:32 | person | Ahead | Very Close | 88.9%
+22:00:32 | person | Ahead | Very Close | 89.7%
+22:00:32 | person | Ahead | Very Close | 88.8%
+22:00:32 | person | Ahead | Very Close | 90.4%
+22:00:33 | person | Ahead | Very Close | 90.2%
+22:00:33 | person | Ahead | Very Close | 90.4%
+22:00:33 | person | Ahead | Very Close | 89.3%
+22:00:33 | person | Ahead | Very Close | 89.2%
+22:00:33 | person | Ahead | Very Close | 89.6%
+22:00:33 | person | Ahead | Very Close | 91.3%
+22:00:33 | person | Ahead | Very Close | 91.1%
+22:00:33 | person | Ahead | Very Close | 90.9%
+22:00:34 | person | Ahead | Very Close | 91.4%
+22:00:34 | person | Ahead | Very Close | 91.0%

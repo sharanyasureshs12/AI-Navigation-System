@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+opencv-python
+ultralytics
+pywin32
+numpy

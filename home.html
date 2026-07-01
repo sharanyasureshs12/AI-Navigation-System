@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Navigation System</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<h2>AI Navigation</h2>
+
+<div>
+
+<a href="/login" class="nav-btn">Login</a>
+
+<a href="/register" class="nav-btn register">Register</a>
+
+</div>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>
+
+Smart Navigation for <span>Visually Impaired</span>
+
+</h1>
+
+<p>
+
+An AI-powered navigation system that detects nearby objects using
+YOLOv8 and OpenCV and provides real-time voice guidance to help users
+move safely and independently.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="/register" class="btn">
+
+Get Started
+
+</a>
+
+<a href="/login" class="btn btn-outline">
+
+Login
+
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<i class="fa-solid fa-eye"></i>
+
+</div>
+
+</section>
+
+<section class="features">
+
+<h2>Key Features</h2>
+
+<div class="feature-grid">
+
+<div class="card">
+
+<i class="fa-solid fa-camera"></i>
+
+<h3>Real-Time Detection</h3>
+
+<p>Detects surrounding objects instantly using YOLOv8.</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-volume-high"></i>
+
+<h3>Voice Assistance</h3>
+
+<p>Provides voice alerts to help users navigate safely.</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-location-arrow"></i>
+
+<h3>Direction Guidance</h3>
+
+<p>Identifies whether an object is on the left, right or ahead.</p>
+
+</div>
+
+<div class="card">
+
+<i class="fa-solid fa-brain"></i>
+
+<h3>Artificial Intelligence</h3>
+
+<p>Uses Computer Vision for accurate obstacle detection.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 AI Navigation System | Built using Python, Flask, YOLOv8 & OpenCV
+
+</p>
+
+</footer>
+
+</body>
+
+</html>

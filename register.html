@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register | AI Navigation</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body class="login-page">
+
+<div class="login-container">
+
+<div class="login-card">
+
+<div class="login-icon">
+
+<i class="fa-solid fa-user-plus"></i>
+
+</div>
+
+<h2>Create Account</h2>
+
+<p>Register to access the AI Navigation System</p>
+{% with messages = get_flashed_messages(with_categories=true) %}
+
+{% if messages %}
+
+    {% for category, message in messages %}
+
+        <div class="flash {{category}}">
+            {{message}}
+        </div>
+
+    {% endfor %}
+
+{% endif %}
+
+{% endwith %}
+<form method="POST">
+
+<div class="input-box">
+
+<i class="fa-solid fa-user"></i>
+
+<input type="text"
+name="name"
+placeholder="Full Name"
+required>
+
+</div>
+
+<div class="input-box">
+
+<i class="fa-solid fa-envelope"></i>
+
+<input type="email"
+name="email"
+placeholder="Email Address"
+required>
+
+</div>
+
+<div class="input-box">
+
+<i class="fa-solid fa-lock"></i>
+
+<input type="password"
+name="password"
+placeholder="Password"
+required>
+
+</div>
+
+<button type="submit" class="login-btn">
+
+Create Account
+
+</button>
+
+</form>
+
+<div class="login-links">
+
+<p>Already have an account?</p>
+
+<a href="{{ url_for('login') }}">
+
+Login
+
+</a>
+
+<br><br>
+
+<a href="{{ url_for('home') }}">
+
+← Back to Home
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

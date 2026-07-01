@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard | AI Navigation</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body class="dashboard-page">
+
+<nav class="dashboard-nav">
+
+    <h2>AI Navigation Dashboard</h2>
+
+    <a href="/" class="home-btn">
+        <i class="fa-solid fa-house"></i>
+        Home
+    </a>
+
+</nav>
+
+<section class="dashboard">
+
+   <div class="dashboard-header">
+
+    <div>
+
+        <h1>Welcome, {{ name }} 👋</h1>
+
+        <p>
+            Monitor the AI Navigation System and start real-time object detection.
+        </p>
+
+    </div>
+
+    <div class="profile-card">
+
+        <i class="fa-solid fa-circle-user profile-icon"></i>
+
+        <h3>{{ name }}</h3>
+
+        <p>{{ email }}</p>
+
+        <span class="online-badge">
+            ● Online
+        </span>
+
+    </div>
+
+</div>
+    <div class="status-grid">
+
+        <div class="status-card">
+
+            <i class="fa-solid fa-camera"></i>
+
+            <h3>Camera</h3>
+
+            <span class="online">Ready</span>
+
+        </div>
+
+        <div class="status-card">
+
+            <i class="fa-solid fa-brain"></i>
+
+            <h3>AI Model</h3>
+
+            <span class="online">YOLOv8 Loaded</span>
+
+        </div>
+
+        <div class="status-card">
+
+            <i class="fa-solid fa-volume-high"></i>
+
+            <h3>Voice</h3>
+
+            <span class="online">Ready</span>
+
+        </div>
+
+        <div class="status-card">
+
+            <i class="fa-solid fa-location-arrow"></i>
+
+            <h3>Navigation</h3>
+
+            <span class="waiting">Waiting</span>
+
+        </div>
+
+    </div>
+
+    <div class="start-box">
+
+        <button class="start-btn" onclick="startNavigation()">
+
+            <i class="fa-solid fa-play"></i>
+
+            Start Navigation
+
+        </button>
+
+    </div>
+
+    <div class="stats">
+
+        <div class="stat-card">
+
+            <h2 id="object">None</h2>
+
+            <p>Detected Object</p>
+
+        </div>
+        <!--==========================
+      Detection History
+===========================-->
+
+<section class="history-section">
+
+    <h2>Recent Detections</h2>
+
+    <table class="history-table">
+
+        <thead>
+
+            <tr>
+
+                <th>Object</th>
+
+                <th>Direction</th>
+
+                <th>Confidence</th>
+
+                <th>Time</th>
+
+            </tr>
+
+        </thead>
+
+     <tbody>
+
+{% if detections %}
+
+    {% for item in detections %}
+
+    <tr>
+
+        <td>{{ item.object }}</td>
+
+        <td>{{ item.direction }}</td>
+
+        <td>{{ item.confidence }}</td>
+
+        <td>{{ item.time }}</td>
+
+    </tr>
+
+    {% endfor %}
+
+{% else %}
+
+<tr>
+
+<td colspan="4">
+
+No detections yet.
+
+</td>
+
+</tr>
+
+{% endif %}
+
+</tbody>   
+    </table>
+
+</section>
+
+        <div class="stat-card">
+
+            <h2 id="direction">Waiting</h2>
+
+            <p>Direction</p>
+
+        </div>
+
+        <div class="stat-card">
+
+            <h2>Active</h2>
+
+            <p>System Status</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+
+function startNavigation(){
+
+    window.location.href="/start_navigation";
+
+}
+
+</script>
+
+</body>
+
+</html>
